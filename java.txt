@@ -1,0 +1,67 @@
+1. Dự án Hệ thống Đặt vé / Flash Sale (High Concurrency)
+Dự án này tập trung vào việc xử lý lượng lớn người dùng cùng lúc và bảo vệ toàn vẹn dữ liệu.
+
+Từ khóa về Tư duy hệ thống (System Design):
+
+Flash sale system design (Cách thiết kế hệ thống flash sale)
+
+How to handle high concurrency in e-commerce (Xử lý đồng thời cao trong thương mại điện tử)
+
+Prevent over-selling system design (Thiết kế chống bán vượt quá số lượng tồn kho)
+
+Từ khóa về Thực hành Code (Spring Boot + Redis + Database):
+
+Spring Boot handle high concurrency
+
+Redis distributed lock Spring Boot (Khóa phân tán bằng Redis)
+
+Optimistic lock vs Pessimistic lock JPA/Hibernate (Cách khóa row trong database để tránh xung đột)
+
+RabbitMQ asynchronous order processing Spring Boot (Xử lý đặt hàng bất đồng bộ bằng Queue)
+
+JMeter test high concurrency Spring Boot (Cách dùng tool JMeter để giả lập hàng ngàn user bắn request cùng lúc)
+
+2. Dự án Microservices E-commerce (Event-Driven)
+Dự án này thiên về kiến trúc hệ thống phân tán và cách các dịch vụ nhỏ nói chuyện với nhau.
+
+Từ khóa về Tư duy hệ thống (System Design):
+
+Event-Driven Architecture explained (Giải thích kiến trúc hướng sự kiện)
+
+Monolithic vs Microservices architecture
+
+Distributed transactions Microservices (Xử lý giao dịch chéo qua nhiều service)
+
+Từ khóa về Thực hành Code (Spring Cloud + Kafka/RabbitMQ):
+
+Spring Boot Microservices full course (Nên xem các video dài 2-4 tiếng để thấy toàn cảnh cách họ setup)
+
+Spring Cloud API Gateway and Eureka tutorial
+
+Microservices communication using Kafka Spring Boot (Giao tiếp giữa các service bằng Kafka)
+
+Saga pattern implementation Spring Boot (Mẫu thiết kế Saga để rollback dữ liệu khi một service bị lỗi)
+
+Dockerize Spring Boot Microservices (Cách đóng gói toàn bộ hệ thống bằng Docker)
+
+3. Dự án Tự viết "Mini Framework" (Core Java)
+Dự án này yêu cầu hiểu sâu về lõi của ngôn ngữ Java, đặc biệt là kĩ thuật can thiệp vào code lúc ứng dụng đang chạy.
+
+Từ khóa để hiểu lý thuyết lõi:
+
+Java Reflection API tutorial (Bắt buộc phải xem - đây là trái tim của mọi framework)
+
+How Spring Boot works under the hood (Cách Spring Boot hoạt động ngầm bên dưới)
+
+Inversion of Control (IoC) and Dependency Injection (DI) explained
+
+Từ khóa về Thực hành Code (Thuần Java):
+
+Build your own Dependency Injection framework Java (Tự build DI container)
+
+Build your own ORM framework Java (Tự build thư viện map Object - SQL)
+
+Create custom annotations in Java (Cách tạo và xử lý annotation như @MyService, @MyColumn)
+
+💡 Mẹo khi xem YouTube:
+Khi tìm các từ khóa này, hãy ưu tiên các kênh như Amigoscode, Java Brains, Daily Code Buffer, hoặc Tech Dummies (cho System Design). Thay vì code theo họ từng dòng (tutorial hell), hãy tập trung xem cách họ đặt vấn đề (Problem) và cách họ giải quyết (Solution).
